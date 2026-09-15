@@ -1,0 +1,23 @@
+.DS_Store
+*.log
+
+# Backend
+backend/node_modules/
+node_modules/
+backend/.env
+backend/.env.*
+!backend/.env.example
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/serviceAccountKey.json
+*.key
+
+# Frontend
+frontend/.dart_tool/
+frontend/build/
+frontend/.packages
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.pub-cache/
+.dart_tool/
+build/
